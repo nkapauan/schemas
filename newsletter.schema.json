@@ -14,10 +14,11 @@
             "items": {
               "type": "object",
               "properties": {
-                "text":   { "type": "string" },
+                "headline": { "type": "string" },
+		"text": { "type": "string" },
                 "source": { "type": "string" }
               },
-              "required": ["text","source"]
+              "required": ["headline","text","source"]
             }
           }
         },
