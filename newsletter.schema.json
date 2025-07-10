@@ -3,6 +3,7 @@
   "properties": {
     "title": { "type": "string" },
     "date": { "type": "string" },
+    "intro": { "type": "string" },
     "sections": { 
       "type": "array",
       "items": { 
@@ -24,7 +25,8 @@
         },
         "required": ["section","bullets"]
       }
-    }
+    },
+    "outro": { "type": "string" },
   },
-  "required": ["title","date","sections"]
+  "required": ["title","date","intro","sections","outro"]
 }
