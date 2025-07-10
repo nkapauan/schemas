@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "date": { "type": "string" },
+    "sections": { 
+      "type": "array",
+      "items": { 
+        "type": "object",
+        "properties": {
+          "section": { "type": "string" },
+          "bullets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "text":   { "type": "string" },
+                "source": { "type": "string" }
+              },
+              "required": ["text","source"]
+            }
+          }
+        },
+        "required": ["section","bullets"]
+      }
+    }
+  },
+  "required": ["title","date","sections"]
+}
