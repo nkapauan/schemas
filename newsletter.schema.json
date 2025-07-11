@@ -29,5 +29,5 @@
     "outro": { "type": "string" },
     "signature": { "type": "string" },
   },
-  "required": ["title","date","intro","sections","outro"]
+  "required": ["title","date","intro","sections","outro","signature"]
 }
