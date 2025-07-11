@@ -27,7 +27,7 @@
       }
     },
     "outro": { "type": "string" },
-    "signature": { "type": "string" },
+    "signature": { "type": "string" }
   },
   "required": ["title","date","intro","sections","outro","signature"]
 }
